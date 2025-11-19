@@ -1,26 +1,29 @@
 import { ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import categoryMen from "@/assets/category-men.jpg";
+import categoryWomen from "@/assets/category-women.jpg";
+import categoryUnisex from "@/assets/category-unisex.jpg";
 
 const categories = [
   {
     id: 1,
     name: "Men's Collection",
     description: "Bold designs for the modern man",
-    image: "/placeholder.svg",
+    image: categoryMen,
     href: "#men",
   },
   {
     id: 2,
     name: "Women's Collection",
     description: "Elegant styles that empower",
-    image: "/placeholder.svg",
+    image: categoryWomen,
     href: "#women",
   },
   {
     id: 3,
     name: "Unisex Collection",
     description: "Style without boundaries",
-    image: "/placeholder.svg",
+    image: categoryUnisex,
     href: "#unisex",
   },
 ];
