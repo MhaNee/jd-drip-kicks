@@ -1,4 +1,5 @@
 import { Heart, Award, Sparkles } from "lucide-react";
+import brandCraftsmanship from "@/assets/brand-craftsmanship.jpg";
 
 const values = [
   {
@@ -30,7 +31,7 @@ const BrandStory = () => {
           <div className="relative animate-scale-in">
             <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
               <img
-                src="/placeholder.svg"
+                src={brandCraftsmanship}
                 alt="Stride Vault craftsmanship and quality footwear production"
                 className="w-full h-full object-cover"
               />

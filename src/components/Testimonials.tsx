@@ -1,5 +1,8 @@
 import { Card } from "@/components/ui/card";
 import { Star } from "lucide-react";
+import avatar1 from "@/assets/avatar-1.jpg";
+import avatar2 from "@/assets/avatar-2.jpg";
+import avatar3 from "@/assets/avatar-3.jpg";
 
 const testimonials = [
   {
@@ -9,7 +12,7 @@ const testimonials = [
     content:
       "Best shoes I've ever owned! The comfort is unmatched and they look great with everything. I've recommended Stride Vault to all my friends.",
     rating: 5,
-    avatar: "/placeholder.svg",
+    avatar: avatar1,
   },
   {
     id: 2,
@@ -18,7 +21,7 @@ const testimonials = [
     content:
       "As someone who's on their feet all day, these shoes are a game-changer. Stylish enough for meetings but comfortable enough for long walks.",
     rating: 5,
-    avatar: "/placeholder.svg",
+    avatar: avatar2,
   },
   {
     id: 3,
@@ -27,7 +30,7 @@ const testimonials = [
     content:
       "I love that these shoes work for everyone. The unisex design is refreshing and the quality is outstanding for the price point.",
     rating: 5,
-    avatar: "/placeholder.svg",
+    avatar: avatar3,
   },
 ];
 
