@@ -10,7 +10,7 @@ const products = [
   {
     id: 1,
     name: "Premium Loafers",
-    price: 12500,
+    price: 25000,
     rating: 4.8,
     reviews: 124,
     image: product1,
@@ -18,7 +18,7 @@ const products = [
   {
     id: 2,
     name: "Casual Sneakers",
-    price: 9500,
+    price: 28000,
     rating: 4.9,
     reviews: 89,
     image: product2,
@@ -26,7 +26,7 @@ const products = [
   {
     id: 3,
     name: "Comfort Slides",
-    price: 5500,
+    price: 20000,
     rating: 4.7,
     reviews: 156,
     image: product3,
@@ -34,7 +34,7 @@ const products = [
   {
     id: 4,
     name: "Classic Sandals",
-    price: 6500,
+    price: 22000,
     rating: 4.8,
     reviews: 203,
     image: product4,
@@ -62,13 +62,13 @@ const FeaturedProducts = () => {
               className="group overflow-hidden border-border hover:shadow-lg transition-all duration-300 animate-fade-in"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="relative overflow-hidden aspect-square">
+              <div className="relative overflow-hidden aspect-square bg-muted">
                 <img
                   src={product.image}
                   alt={`${product.name} - Premium unisex footwear`}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                  className="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/10 transition-colors duration-300"></div>
+                <div className="absolute inset-0 bg-foreground/0 group-hover:bg-foreground/5 transition-colors duration-300"></div>
               </div>
               
               <div className="p-6">

@@ -108,8 +108,8 @@ export default {
         "scale-in": "scale-in 0.4s ease-out",
       },
       fontFamily: {
-        'heading': ['Playfair Display', 'serif'],
-        'body': ['Inter', 'sans-serif'],
+        'heading': ['Outfit', 'sans-serif'],
+        'body': ['Sora', 'sans-serif'],
       },
     },
   },

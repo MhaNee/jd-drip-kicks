@@ -15,12 +15,12 @@ const Navigation = () => {
   }, []);
 
   const navLinks = [
-    { name: "Shop", href: "#shop" },
-    { name: "Men", href: "#men" },
-    { name: "Women", href: "#women" },
-    { name: "Unisex", href: "#unisex" },
-    { name: "About", href: "#about" },
-    { name: "Contact", href: "#contact" },
+    { name: "Shop", href: "/#shop" },
+    { name: "Men", href: "/men" },
+    { name: "Women", href: "/women" },
+    { name: "Unisex", href: "/unisex" },
+    { name: "About", href: "/#about" },
+    { name: "Contact", href: "/#contact" },
   ];
 
   return (
