@@ -36,9 +36,9 @@ const Navigation = () => {
           {/* Logo */}
           <a
             href="#hero"
-            className="text-2xl lg:text-3xl font-heading font-bold text-foreground hover:text-primary transition-colors"
+            className="text-2xl lg:text-3xl font-heading font-bold hover:text-primary transition-colors"
           >
-            Stride Vault
+            <span className="text-primary">JD</span> <span className="text-foreground">Drip Kicks</span>
           </a>
 
           {/* Desktop Navigation */}

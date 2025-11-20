@@ -9,34 +9,34 @@ import product4 from "@/assets/product-4.jpg";
 const products = [
   {
     id: 1,
-    name: "Classic Canvas Low",
-    price: "$89.99",
+    name: "Premium Loafers",
+    price: 12500,
     rating: 4.8,
     reviews: 124,
     image: product1,
   },
   {
     id: 2,
-    name: "Urban Runner Elite",
-    price: "$129.99",
+    name: "Casual Sneakers",
+    price: 9500,
     rating: 4.9,
-    reviews: 98,
+    reviews: 89,
     image: product2,
   },
   {
     id: 3,
-    name: "Comfort Stride Pro",
-    price: "$109.99",
+    name: "Comfort Slides",
+    price: 5500,
     rating: 4.7,
     reviews: 156,
     image: product3,
   },
   {
     id: 4,
-    name: "Minimalist Daily",
-    price: "$95.99",
-    rating: 4.6,
-    reviews: 87,
+    name: "Classic Sandals",
+    price: 6500,
+    rating: 4.8,
+    reviews: 203,
     image: product4,
   },
 ];
@@ -90,7 +90,7 @@ const FeaturedProducts = () => {
                 
                 <div className="flex items-center justify-between">
                   <span className="text-2xl font-bold text-primary">
-                    {product.price}
+                    ₦{product.price.toLocaleString()}
                   </span>
                   <Button
                     size="sm"

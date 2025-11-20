@@ -23,20 +23,18 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Text Content */}
           <div className="text-center lg:text-left animate-fade-in">
-            <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-primary-foreground mb-6 leading-tight">
-              Step Into
+            <h1 className="font-heading text-5xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
+              Feel The Comfort
               <br />
-              <span className="text-background">Comfort & Style</span>
+              <span className="text-primary">Rock The Style</span>
             </h1>
-            <p className="text-lg md:text-xl text-primary-foreground/90 mb-8 max-w-xl mx-auto lg:mx-0">
-              Discover premium unisex footwear that combines exceptional comfort
-              with timeless design. Every step, perfected.
+            <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-xl mx-auto lg:mx-0">
+              Dealers in all kinds of footwear - cover shoes, canvas, slides, sandals, crocs for both male and female. Step boldly, feel comfortable and show your personality.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
               <Button
                 size="lg"
-                variant="secondary"
-                className="gap-2 text-lg font-semibold shadow-lg hover:shadow-xl transition-all"
+                className="gap-2 text-lg font-semibold shadow-lg hover:shadow-xl transition-all bg-primary text-primary-foreground hover:bg-primary/90"
               >
                 Shop Now
                 <ArrowRight className="w-5 h-5" />
@@ -44,7 +42,7 @@ const Hero = () => {
               <Button
                 size="lg"
                 variant="outline"
-                className="text-lg font-semibold bg-background/10 backdrop-blur-sm border-2 border-background text-background hover:bg-background hover:text-foreground"
+                className="text-lg font-semibold border-2 border-primary text-primary hover:bg-primary hover:text-primary-foreground"
               >
                 View Collection
               </Button>
@@ -61,9 +59,9 @@ const Hero = () => {
               />
             </div>
             {/* Floating Badge */}
-            <div className="absolute -bottom-6 -left-6 bg-accent text-accent-foreground px-6 py-4 rounded-2xl shadow-xl">
-              <p className="text-sm font-semibold">Free Shipping</p>
-              <p className="text-2xl font-heading font-bold">On All Orders</p>
+            <div className="absolute -bottom-6 -left-6 bg-primary text-primary-foreground px-6 py-4 rounded-2xl shadow-xl">
+              <p className="text-sm font-semibold">Based on</p>
+              <p className="text-2xl font-heading font-bold">Order</p>
             </div>
           </div>
         </div>

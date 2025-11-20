@@ -50,10 +50,10 @@ const ContactForm = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Email</h3>
                   <a
-                    href="mailto:hello@stridevault.com"
+                    href="mailto:info@jddripkicks.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    hello@stridevault.com
+                    info@jddripkicks.com
                   </a>
                 </div>
               </div>
@@ -65,10 +65,10 @@ const ContactForm = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Phone</h3>
                   <a
-                    href="tel:+15551234567"
+                    href="tel:+2347081518378"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    +1 (555) 123-4567
+                    +234-7081518378, 08105043991
                   </a>
                 </div>
               </div>
