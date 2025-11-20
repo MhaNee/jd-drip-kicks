@@ -10,21 +10,21 @@ const categories = [
     name: "Men's Collection",
     description: "Bold designs for the modern man",
     image: categoryMen,
-    href: "#men",
+    href: "/men",
   },
   {
     id: 2,
     name: "Women's Collection",
     description: "Elegant styles that empower",
     image: categoryWomen,
-    href: "#women",
+    href: "/women",
   },
   {
     id: 3,
     name: "Unisex Collection",
     description: "Style without boundaries",
     image: categoryUnisex,
-    href: "#unisex",
+    href: "/unisex",
   },
 ];
 
