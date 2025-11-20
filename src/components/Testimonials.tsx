@@ -7,28 +7,28 @@ import avatar3 from "@/assets/avatar-3.jpg";
 const testimonials = [
   {
     id: 1,
-    name: "Sarah Johnson",
-    role: "Creative Director",
+    name: "Chioma Adeleke",
+    role: "Verified Buyer",
     content:
-      "Best shoes I've ever owned! The comfort is unmatched and they look great with everything. I've recommended Stride Vault to all my friends.",
+      "Best footwear dealer in town! The quality and comfort are exceptional. I got my slides and loafers from JD Drip Kicks and I'm impressed!",
     rating: 5,
     avatar: avatar1,
   },
   {
     id: 2,
-    name: "Michael Chen",
-    role: "Software Engineer",
+    name: "Ibrahim Musa",
+    role: "Regular Customer",
     content:
-      "As someone who's on their feet all day, these shoes are a game-changer. Stylish enough for meetings but comfortable enough for long walks.",
+      "As someone who values both style and comfort, JD Drip Kicks delivers perfectly. Their collection is diverse and the prices are very reasonable.",
     rating: 5,
     avatar: avatar2,
   },
   {
     id: 3,
-    name: "Alex Rivera",
-    role: "Photographer",
+    name: "Blessing Okafor",
+    role: "Fashion Enthusiast",
     content:
-      "I love that these shoes work for everyone. The unisex design is refreshing and the quality is outstanding for the price point.",
+      "I love that they have options for everyone. From casual to formal, slides to sneakers - JD Drip Kicks has it all. Great quality too!",
     rating: 5,
     avatar: avatar3,
   },
@@ -44,7 +44,7 @@ const Testimonials = () => {
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             Don't just take our word for it. Here's what people are saying about
-            Stride Vault.
+            JD Drip Kicks.
           </p>
         </div>
 
@@ -72,7 +72,7 @@ const Testimonials = () => {
                 <div className="w-12 h-12 rounded-full overflow-hidden bg-muted">
                   <img
                     src={testimonial.avatar}
-                    alt={`${testimonial.name} - Stride Vault customer`}
+                    alt={`${testimonial.name} - JD Drip Kicks customer`}
                     className="w-full h-full object-cover"
                   />
                 </div>

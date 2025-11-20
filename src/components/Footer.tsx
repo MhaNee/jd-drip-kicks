@@ -22,11 +22,11 @@ const Footer = () => {
           {/* Brand */}
           <div className="lg:col-span-2">
             <h3 className="font-heading text-3xl font-bold mb-4">
-              Stride Vault
+              <span className="text-primary">JD</span> Drip Kicks
             </h3>
             <p className="text-background/80 mb-6 leading-relaxed">
-              Premium unisex footwear that combines comfort, style, and
-              affordability. Step into your best self.
+              Dealers in all kinds of footwear for both male and female. 
+              Feel the comfort, rock the style. Step boldly and show your personality.
             </p>
             <div className="flex gap-4">
               {socialLinks.map((social) => (
@@ -85,7 +85,7 @@ const Footer = () => {
 
         {/* Copyright */}
         <div className="border-t border-background/20 pt-8 text-center text-background/60 text-sm">
-          <p>© 2024 Stride Vault. All rights reserved.</p>
+          <p>© 2024 JD Drip Kicks. All rights reserved.</p>
         </div>
       </div>
     </footer>

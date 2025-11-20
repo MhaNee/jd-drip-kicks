@@ -6,19 +6,19 @@ const values = [
     icon: Heart,
     title: "Comfort First",
     description:
-      "Every shoe is engineered with premium materials and ergonomic design for all-day comfort.",
-  },
-  {
-    icon: Sparkles,
-    title: "Timeless Style",
-    description:
-      "Classic designs that transcend trends, perfect for any occasion and personal style.",
+      "Feel comfortable in every step you take with our premium footwear collection.",
   },
   {
     icon: Award,
-    title: "Affordable Luxury",
+    title: "Quality Selection",
     description:
-      "Premium quality shouldn't break the bank. Exceptional value in every pair.",
+      "Dealers in all kinds of footwear - from cover shoes to canvas, slides, sandals, and crocs.",
+  },
+  {
+    icon: Sparkles,
+    title: "Style & Personality",
+    description:
+      "Step boldly and show your personality with our diverse collection for both male and female.",
   },
 ];
 
@@ -32,7 +32,7 @@ const BrandStory = () => {
             <div className="aspect-[4/3] rounded-3xl overflow-hidden shadow-2xl">
               <img
                 src={brandCraftsmanship}
-                alt="Stride Vault craftsmanship and quality footwear production"
+                alt="JD Drip Kicks quality footwear selection and craftsmanship"
                 className="w-full h-full object-cover"
               />
             </div>
@@ -42,22 +42,20 @@ const BrandStory = () => {
           {/* Content */}
           <div className="animate-fade-in">
             <h2 className="font-heading text-4xl md:text-5xl font-bold text-foreground mb-6">
-              Where Comfort
+              About
               <br />
-              Meets Style
+              <span className="text-primary">JD Drip Kicks</span>
             </h2>
             <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-              At Stride Vault, we believe that great shoes shouldn't require a
-              compromise between comfort and style. Founded on the principle that
-              everyone deserves premium footwear, we've created a collection of
-              unisex shoes that combine exceptional craftsmanship, timeless
-              design, and accessible pricing.
+              Your trusted dealer in all kinds of footwear for both male and female.
+              We bring you comfort, style, and quality in every step. From cover shoes 
+              to canvas, slides, sandals, and crocs - we've got you covered.
             </p>
             <p className="text-lg text-muted-foreground mb-12 leading-relaxed">
-              Each pair is thoughtfully designed to support your lifestyle,
-              whether you're exploring the city, heading to work, or enjoying a
-              casual weekend. Because your shoes should work as hard as you do,
-              without ever slowing you down.
+              Step boldly, feel comfortable, and show your personality with our 
+              diverse collection. Whether you're looking for casual everyday wear 
+              or something special, JD Drip Kicks delivers quality footwear that 
+              matches your lifestyle.
             </p>
 
             <div className="space-y-8">
