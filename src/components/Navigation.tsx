@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
-import { Menu, X, ShoppingBag } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Menu, X } from "lucide-react";
 
 const Navigation = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -52,10 +51,6 @@ const Navigation = () => {
                 {link.name}
               </a>
             ))}
-            <Button variant="default" size="sm" className="gap-2">
-              <ShoppingBag className="w-4 h-4" />
-              Cart
-            </Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -86,10 +81,6 @@ const Navigation = () => {
                   {link.name}
                 </a>
               ))}
-              <Button variant="default" className="gap-2 w-full">
-                <ShoppingBag className="w-4 h-4" />
-                Cart
-              </Button>
             </div>
           </div>
         )}
