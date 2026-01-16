@@ -1,8 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ShoppingCart, Star, ArrowLeft } from "lucide-react";
+import { Star, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import product3 from "@/assets/product-3.jpg";
 import product4 from "@/assets/product-4.jpg";
@@ -162,22 +161,6 @@ const UnisexProducts = () => {
                     </div>
                   </div>
 
-                  <div className="flex items-center justify-between pt-4 border-t border-border">
-                    <div>
-                      <p className="text-xs text-muted-foreground mb-1">Price</p>
-                      <span className="text-2xl font-bold text-primary">
-                        ₦{product.price.toLocaleString()}
-                      </span>
-                    </div>
-                    <Button
-                      size="default"
-                      className="gap-2 group-hover:gap-3 transition-all"
-                      disabled={!product.inStock}
-                    >
-                      <ShoppingCart className="w-4 h-4" />
-                      {product.inStock ? "Add to Cart" : "Sold Out"}
-                    </Button>
-                  </div>
                 </div>
               </Card>
             ))}

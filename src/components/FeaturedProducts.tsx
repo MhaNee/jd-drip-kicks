@@ -1,6 +1,5 @@
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ShoppingCart, Star } from "lucide-react";
+import { Star } from "lucide-react";
 import product1 from "@/assets/product-1.jpg";
 import product2 from "@/assets/product-2.jpg";
 import product3 from "@/assets/product-3.jpg";
@@ -88,29 +87,11 @@ const FeaturedProducts = () => {
                   </span>
                 </div>
                 
-                <div className="flex items-center justify-between">
-                  <span className="text-2xl font-bold text-primary">
-                    ₦{product.price.toLocaleString()}
-                  </span>
-                  <Button
-                    size="sm"
-                    variant="default"
-                    className="gap-2 group-hover:gap-3 transition-all"
-                  >
-                    <ShoppingCart className="w-4 h-4" />
-                    Add
-                  </Button>
-                </div>
               </div>
             </Card>
           ))}
         </div>
 
-        <div className="text-center mt-12">
-          <Button size="lg" variant="outline" className="font-semibold">
-            View All Products
-          </Button>
-        </div>
       </div>
     </section>
   );
