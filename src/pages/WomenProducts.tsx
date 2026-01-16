@@ -1,8 +1,7 @@
 import Navigation from "@/components/Navigation";
 import Footer from "@/components/Footer";
-import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
-import { ShoppingCart, Star, ArrowLeft } from "lucide-react";
+import { Star, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
 import product2 from "@/assets/product-2.jpg";
 
@@ -157,21 +156,6 @@ const WomenProducts = () => {
                     </div>
                   </div>
 
-                  <div className="flex items-center justify-between pt-4 border-t border-border">
-                    <div>
-                      <p className="text-xs text-muted-foreground mb-1">Price</p>
-                      <span className="text-2xl font-bold text-primary">
-                        ₦{product.price.toLocaleString()}
-                      </span>
-                    </div>
-                    <Button
-                      size="default"
-                      className="gap-2 group-hover:gap-3 transition-all"
-                    >
-                      <ShoppingCart className="w-4 h-4" />
-                      Add to Cart
-                    </Button>
-                  </div>
                 </div>
               </Card>
             ))}
