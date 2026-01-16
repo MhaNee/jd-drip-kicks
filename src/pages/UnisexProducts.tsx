@@ -113,15 +113,6 @@ const UnisexProducts = () => {
                     alt={`${product.name} - Premium unisex footwear from JD Drip Kicks`}
                     className="w-full h-full object-contain p-4 transition-transform duration-500 group-hover:scale-110"
                   />
-                  {product.inStock ? (
-                    <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 rounded-full text-sm font-semibold">
-                      In Stock
-                    </div>
-                  ) : (
-                    <div className="absolute top-4 right-4 bg-destructive text-destructive-foreground px-3 py-1 rounded-full text-sm font-semibold">
-                      Out of Stock
-                    </div>
-                  )}
                 </div>
 
                 <div className="p-6">
@@ -145,21 +136,6 @@ const UnisexProducts = () => {
                     </span>
                   </div>
 
-                  <div className="mb-4">
-                    <p className="text-xs text-muted-foreground mb-2">
-                      Available Sizes:
-                    </p>
-                    <div className="flex flex-wrap gap-2">
-                      {product.sizes.map((size) => (
-                        <span
-                          key={size}
-                          className="px-2 py-1 bg-muted text-foreground text-xs rounded border border-border"
-                        >
-                          {size}
-                        </span>
-                      ))}
-                    </div>
-                  </div>
 
                 </div>
               </Card>
