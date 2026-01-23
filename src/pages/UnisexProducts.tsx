@@ -3,8 +3,12 @@ import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Star, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import product3 from "@/assets/product-3.jpg";
-import product4 from "@/assets/product-4.jpg";
+import unisexSlides from "@/assets/unisex-slides.jpg";
+import unisexCrocs from "@/assets/unisex-crocs.jpg";
+import unisexFlipflops from "@/assets/unisex-flipflops.jpg";
+import unisexCanvas from "@/assets/unisex-canvas.jpg";
+import unisexSportslides from "@/assets/unisex-sportslides.jpg";
+import unisexBathroom from "@/assets/unisex-bathroom.jpg";
 
 const unisexProducts = [
   {
@@ -14,7 +18,7 @@ const unisexProducts = [
     price: 12000,
     rating: 4.8,
     reviews: 234,
-    image: product3,
+    image: unisexSlides,
     sizes: ["36", "37", "38", "39", "40", "41", "42", "43", "44"],
     inStock: true,
   },
@@ -25,7 +29,7 @@ const unisexProducts = [
     price: 18000,
     rating: 4.9,
     reviews: 289,
-    image: product4,
+    image: unisexCrocs,
     sizes: ["36", "37", "38", "39", "40", "41", "42", "43", "44"],
     inStock: true,
   },
@@ -36,7 +40,7 @@ const unisexProducts = [
     price: 8000,
     rating: 4.7,
     reviews: 198,
-    image: product3,
+    image: unisexFlipflops,
     sizes: ["36", "37", "38", "39", "40", "41", "42", "43", "44", "45"],
     inStock: true,
   },
@@ -47,7 +51,7 @@ const unisexProducts = [
     price: 24000,
     rating: 4.8,
     reviews: 176,
-    image: product4,
+    image: unisexCanvas,
     sizes: ["36", "37", "38", "39", "40", "41", "42", "43", "44"],
     inStock: true,
   },
@@ -58,7 +62,7 @@ const unisexProducts = [
     price: 15000,
     rating: 4.7,
     reviews: 203,
-    image: product3,
+    image: unisexSportslides,
     sizes: ["36", "37", "38", "39", "40", "41", "42", "43", "44"],
     inStock: true,
   },
@@ -69,7 +73,7 @@ const unisexProducts = [
     price: 6000,
     rating: 4.6,
     reviews: 167,
-    image: product4,
+    image: unisexBathroom,
     sizes: ["36", "37", "38", "39", "40", "41", "42", "43", "44"],
     inStock: true,
   },

@@ -3,7 +3,12 @@ import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Star, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import product2 from "@/assets/product-2.jpg";
+import womenSandals from "@/assets/women-sandals.jpg";
+import womenHeels from "@/assets/women-heels.jpg";
+import womenFlats from "@/assets/women-flats.jpg";
+import womenWedge from "@/assets/women-wedge.jpg";
+import womenSneakers from "@/assets/women-sneakers.jpg";
+import womenBallet from "@/assets/women-ballet.jpg";
 
 const womenProducts = [
   {
@@ -13,7 +18,7 @@ const womenProducts = [
     price: 22000,
     rating: 4.9,
     reviews: 156,
-    image: product2,
+    image: womenSandals,
     sizes: ["36", "37", "38", "39", "40", "41"],
     inStock: true,
   },
@@ -24,7 +29,7 @@ const womenProducts = [
     price: 32000,
     rating: 4.8,
     reviews: 134,
-    image: product2,
+    image: womenHeels,
     sizes: ["36", "37", "38", "39", "40"],
     inStock: true,
   },
@@ -35,7 +40,7 @@ const womenProducts = [
     price: 16000,
     rating: 4.7,
     reviews: 189,
-    image: product2,
+    image: womenFlats,
     sizes: ["36", "37", "38", "39", "40", "41"],
     inStock: true,
   },
@@ -46,7 +51,7 @@ const womenProducts = [
     price: 28000,
     rating: 4.8,
     reviews: 178,
-    image: product2,
+    image: womenWedge,
     sizes: ["36", "37", "38", "39", "40"],
     inStock: true,
   },
@@ -57,7 +62,7 @@ const womenProducts = [
     price: 26000,
     rating: 4.9,
     reviews: 123,
-    image: product2,
+    image: womenSneakers,
     sizes: ["36", "37", "38", "39", "40", "41"],
     inStock: true,
   },
@@ -68,7 +73,7 @@ const womenProducts = [
     price: 20000,
     rating: 4.7,
     reviews: 167,
-    image: product2,
+    image: womenBallet,
     sizes: ["36", "37", "38", "39", "40"],
     inStock: true,
   },
