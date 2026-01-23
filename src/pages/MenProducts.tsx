@@ -3,7 +3,12 @@ import Footer from "@/components/Footer";
 import { Card } from "@/components/ui/card";
 import { Star, ArrowLeft } from "lucide-react";
 import { Link } from "react-router-dom";
-import product1 from "@/assets/product-1.jpg";
+import menLoafer from "@/assets/men-loafer.jpg";
+import menSneakers from "@/assets/men-sneakers.jpg";
+import menPalm from "@/assets/men-palm.jpg";
+import menSandals from "@/assets/men-sandals.jpg";
+import menCover from "@/assets/men-cover.jpg";
+import menCanvas from "@/assets/men-canvas.jpg";
 
 const menProducts = [
   {
@@ -13,7 +18,7 @@ const menProducts = [
     price: 25000,
     rating: 4.8,
     reviews: 124,
-    image: product1,
+    image: menLoafer,
     sizes: ["40", "41", "42", "43", "44", "45"],
     inStock: true,
   },
@@ -24,7 +29,7 @@ const menProducts = [
     price: 28000,
     rating: 4.9,
     reviews: 98,
-    image: product1,
+    image: menSneakers,
     sizes: ["40", "41", "42", "43", "44"],
     inStock: true,
   },
@@ -35,7 +40,7 @@ const menProducts = [
     price: 15000,
     rating: 4.7,
     reviews: 156,
-    image: product1,
+    image: menPalm,
     sizes: ["39", "40", "41", "42", "43", "44"],
     inStock: true,
   },
@@ -46,7 +51,7 @@ const menProducts = [
     price: 18000,
     rating: 4.9,
     reviews: 87,
-    image: product1,
+    image: menSandals,
     sizes: ["41", "42", "43", "44", "45"],
     inStock: true,
   },
@@ -57,7 +62,7 @@ const menProducts = [
     price: 35000,
     rating: 4.8,
     reviews: 203,
-    image: product1,
+    image: menCover,
     sizes: ["40", "41", "42", "43", "44"],
     inStock: true,
   },
@@ -68,7 +73,7 @@ const menProducts = [
     price: 22000,
     rating: 4.7,
     reviews: 145,
-    image: product1,
+    image: menCanvas,
     sizes: ["40", "41", "42", "43", "44", "45"],
     inStock: true,
   },
