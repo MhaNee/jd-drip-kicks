@@ -50,10 +50,10 @@ const ContactForm = () => {
                 <div>
                   <h3 className="font-semibold text-foreground mb-1">Email</h3>
                   <a
-                    href="mailto:info@jddripkicks.com"
+                    href="mailto:jddripkicks@gmail.com"
                     className="text-muted-foreground hover:text-primary transition-colors"
                   >
-                    info@jddripkicks.com
+                    jddripkicks@gmail.com
                   </a>
                 </div>
               </div>
